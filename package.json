@@ -1,6 +1,7 @@
 {
   "name": "content-dashboard",
   "version": "0.1.0",
+  "homepage": "https://beyondinfinity9988.github.io/Pgagi-internAssignment",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
