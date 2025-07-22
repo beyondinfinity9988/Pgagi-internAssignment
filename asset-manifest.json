@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Pgagi-internAssignment/static/css/main.386e1465.css",
+    "main.js": "/Pgagi-internAssignment/static/js/main.2d64f545.js",
+    "static/js/453.46ea8d12.chunk.js": "/Pgagi-internAssignment/static/js/453.46ea8d12.chunk.js",
+    "index.html": "/Pgagi-internAssignment/index.html",
+    "main.386e1465.css.map": "/Pgagi-internAssignment/static/css/main.386e1465.css.map",
+    "main.2d64f545.js.map": "/Pgagi-internAssignment/static/js/main.2d64f545.js.map",
+    "453.46ea8d12.chunk.js.map": "/Pgagi-internAssignment/static/js/453.46ea8d12.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.386e1465.css",
+    "static/js/main.2d64f545.js"
+  ]
+}
