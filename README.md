@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+📰 Personalized Content Dashboard
+A fully responsive and interactive dashboard that fetches personalized content like news, trending articles, and social updates based on user preferences. Built as part of the Frontend SDE Intern Assignment using modern web technologies.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+🚀 Features
+✅ Personalized Feed (News, Recommendations)
 
-In the project directory, you can run:
+✅ User Preferences via Settings Panel
 
-### `npm start`
+✅ Infinite Scroll for Dynamic Content
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+✅ Favorite & Save Items for Later
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+✅ Fully Responsive Layout
 
-### `npm test`
+✅ Dark Mode Toggle
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+✅ Smooth Animations with Framer Motion
 
-### `npm run build`
+✅ Search with Debounce Optimization
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🧰 Tech Stack
+Frontend: React.js, Next.js, TypeScript
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Styling: Tailwind CSS, CSS Modules
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+State Management: Redux Toolkit, RTK Query
 
-### `npm run eject`
+Animations: Framer Motion
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Testing: React Testing Library, Jest
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Mock APIs: News API, TMDB API (or placeholders)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+⚙️ Setup Instructions
+bash
+Copy
+Edit
+# 1. Clone the repository
+git clone https://github.com/beyondinfinity9988/Pgagi-internAssignment.git
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 2. Install dependencies
+npm install
 
-## Learn More
+# 3. Create `.env.local` for your API keys (NewsAPI, TMDB, etc.)
+# Example:
+# NEXT_PUBLIC_NEWS_API_KEY=your_key_here
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 4. Run the app locally
+npm run dev
+App will be live at http://localhost:3000
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🧪 Testing
+Run all tests using:
 
-### Code Splitting
+bash
+Copy
+Edit
+npm run test
+You can also run E2E tests with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+bash
+Copy
+Edit
+npx cypress open
+📁 Folder Structure
+bash
+Copy
+Edit
+📦 /src
+├── components        # Reusable UI components (Card, Feed, etc.)
+├── features          # Redux slices and API logic
+├── pages             # Next.js routing
+├── styles            # Tailwind + custom styles
+├── tests             # Unit & integration tests
+└── utils             # Helper functions
+📌 Functionality Highlights
+User Preferences: Set and persist categories via Redux + localStorage
 
-### Analyzing the Bundle Size
+Favorites: Mark articles, see them under "Favorites"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Search: Works across all content, debounced for performance
 
-### Making a Progressive Web App
+Dark Mode: Toggle theme and save preference
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Animations: Card transitions, section swipes, loaders
 
-### Advanced Configuration
+🔒 Environment Variables
+Create a .env.local file in the root with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+NEXT_PUBLIC_NEWS_API_KEY=your_news_api_key
+NEXT_PUBLIC_TMDB_API_KEY=your_tmdb_key
 
-### Deployment
+🌐 Live Demo
+🔗 View Live Demo
+(Optional: add video walkthrough if available)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👨‍💻 Author
+Built with ❤️ by Your Name
+📧 [mishravishal2123@gmail.com]
